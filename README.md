@@ -1,3 +1,4 @@
+# (EN-US)
 # Loan Service Application
 
 ## Description
@@ -22,7 +23,7 @@ This project is a Loan Service Application built with Java and Spring Boot. It d
 POST /customer-loans
 Request Body: Client object
 Response: LoanResponse object containing the customer name and list of loans
-
+# (PT-BR)
 # Aplicação de Serviço de Empréstimo
 
 ## Descrição
