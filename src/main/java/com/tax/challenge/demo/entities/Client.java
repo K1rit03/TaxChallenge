@@ -14,7 +14,7 @@ public class Client {
     public Client() {
     }
 
-    public Client(String name, double income, String location, String cpf, Integer age, List<Loan> loans) {
+    public Client(String name, double income, String location, String cpf, Integer age) {
         this.name = name;
         this.income = income;
         this.location = location;
