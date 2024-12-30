@@ -25,8 +25,8 @@ class LoanServiceTest {
         List<Loan> loans = loanService.determineLoanType(client);
 
         assertEquals(2, loans.size());
-        assertEquals(LoanType.PERSONAL, loans.get(0).getType());
-        assertEquals(0.04, loans.get(0).getInterestRate());
+        assertEquals(LoanType.PERSONAL, loans.getFirst().getType());
+        assertEquals(0.04, loans.getFirst().getInterestRate());
     }
 
     @Test
@@ -45,8 +45,8 @@ class LoanServiceTest {
         List<Loan> loans = loanService.determineLoanType(client);
 
         assertEquals(1, loans.size());
-        assertEquals(LoanType.CONSIGNMENT, loans.get(0).getType());
-        assertEquals(0.02, loans.get(0).getInterestRate());
+        assertEquals(LoanType.CONSIGNMENT, loans.getFirst().getType());
+        assertEquals(0.02, loans.getFirst().getInterestRate());
     }
 
     @Test
