@@ -1,8 +1,9 @@
-package com.tax.challenge.demo.services;
+package com.tax.challenge.demo;
 
 import com.tax.challenge.demo.entities.Client;
 import com.tax.challenge.demo.entities.Loan;
 import com.tax.challenge.demo.entities.LoanType;
+import com.tax.challenge.demo.services.LoanService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
