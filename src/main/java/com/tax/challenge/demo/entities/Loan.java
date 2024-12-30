@@ -2,12 +2,12 @@ package com.tax.challenge.demo.entities;
 
 public class Loan {
     private double interestRate;
-    private String type;
+    private LoanType type;
 
     public Loan() {
     }
 
-    public Loan(double interestRate, String type) {
+    public Loan(double interestRate, LoanType type) {
         this.interestRate = interestRate;
         this.type = type;
     }
@@ -20,11 +20,11 @@ public class Loan {
         this.interestRate = interestRate;
     }
 
-    public String getType() {
+    public LoanType getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(LoanType type) {
         this.type = type;
     }
 }

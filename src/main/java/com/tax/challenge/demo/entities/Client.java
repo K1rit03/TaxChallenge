@@ -9,7 +9,7 @@ public class Client {
     private String location;
     private String cpf;
     private Integer age;
-    private List<Loan> loans;
+
 
     public Client() {
     }
@@ -20,7 +20,7 @@ public class Client {
         this.location = location;
         this.cpf = cpf;
         this.age = age;
-        this.loans = loans;
+
     }
 
     public String getName() {
@@ -63,11 +63,5 @@ public class Client {
         this.age = age;
     }
 
-    public List<Loan> getLoans() {
-        return loans;
-    }
 
-    public void setLoans(List<Loan> loans) {
-        this.loans = loans;
-    }
 }
